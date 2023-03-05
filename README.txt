@@ -1,3 +1,8 @@
+PageRank este un algoritm de analiza a hiperlegaturilor din Internet, folosit de motorul de cautare
+Google pentru a acorda o pondere fiecarui element dintr-o multime de documente interconectate
+prin hiperlegaturi, cu scopul masurarii importantei relative in cadrul multimii.
+
+
 Iterative
 	Asa cum am scris si in comentarii, citesc din fisier,
 construiesc A, matricea normata, folosindu-ma si de nr de noduri,
@@ -18,5 +23,3 @@ am inceput sa printez cu \n N, PR de la Iterative, PR de la Algebraic.
 Am introdus o noua coloana la R2 - iesirea de la Algebraic - ca sa salvez si sa se ordoneze si 
 numerele paginilor. Am sortat folosind functia sortrows, descrescator, am apelat functia de 
 Apartenenta ca sa calculez valoarea functiei membru in punctul x(R2(i, 2)).  Am printat si restul.
-
-In rest am folosit informatiile din paginile date link in tema.
